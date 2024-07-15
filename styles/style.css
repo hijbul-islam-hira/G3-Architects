@@ -6,6 +6,10 @@
 
 }
 /* Common CSS Styles */
+body {
+    overflow-x: hidden;
+}
+
 .display-flex{
     display: flex;
 }
@@ -31,7 +35,7 @@ section{
     max-width: 1440px;
     margin: 0 auto;
     background-color:rgba(255, 144, 14, 0.1);
-    padding: 0px 240px;
+    padding: 0px 100px;
     max-height: 1320px;
     margin-bottom: 150px;
 }
@@ -86,7 +90,7 @@ section{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 20px;    
+    margin-bottom: 30px;    
 }
 .bannar-content{
     max-width: 862px;
@@ -107,6 +111,7 @@ section{
 
 /* Header Section Nav & Bannar Responsive  */
 @media screen and (max-width: 576px) {
+
     .nav-container{
         display: flex;
         flex-direction: column;
@@ -114,7 +119,6 @@ section{
         align-items: center;
     }
     .header{
-        padding: 0 20px;
         height: 100%;
     }
     .bannar-description{
@@ -133,7 +137,9 @@ section{
 .quick-list{
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 50px;
+    max-width: 1440px;
+    padding: 0px 100px;
     
 }
 
@@ -141,6 +147,11 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
+
+}
+.image{
+    height: 342px;
+    width: 342px;
 }
 .quick-list-description{
     color: rgb(114, 114, 114);
@@ -177,7 +188,9 @@ section{
 @media screen and (max-width:576px) {
     .quick-list{
         flex-direction: column-reverse;
-        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        
     }
     .quick-list-image{
         grid-template-columns: repeat(1,1fr);
