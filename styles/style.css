@@ -109,30 +109,6 @@ section{
     max-width: 100%;
 }
 
-/* Header Section Nav & Bannar Responsive  */
-@media screen and (max-width: 576px) {
-
-    .nav-container{
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-    .header{
-        height: 100%;
-    }
-    .bannar-description{
-        margin: 30px;
-    }
-
-    .image-boder{
-        width: 100%;
-        height: 100%;
-    }
-    
-}
-
-
 /* quick-list Section design */
 .quick-list{
     justify-content: center;
@@ -183,28 +159,13 @@ section{
     color: #FF900E;
 
 }
-/* Quick-list section Responsive  */
 
-@media screen and (max-width:576px) {
-    .quick-list{
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .quick-list-image{
-        grid-template-columns: repeat(1,1fr);
-    }
-
-    
-}
 /* Feratures we love and enjoy section */
 
 .features-love{
     margin-top: 150px;
     justify-content: space-between;
     gap: 100px;
-    /* height: 1049px; */
     padding: 0px 100px;
     max-width: 1440px;
     max-height: 1059px;
@@ -294,17 +255,44 @@ section{
 
 @media screen and (max-width:576px) {
 
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .header{
+        height: 100%;
+    }
+    .bannar-description{
+        margin: 30px;
+    }
+
+    .image-boder{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .quick-list{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .quick-list-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
     .features-love{
         flex-direction: column;
-        /* gap: 492px; */
         padding: 0px 55px;
             
     }
     .card-image-item{
         margin-top: 390px;
-        overflow: hidden;
-        object-fit: cover;
     }
  
     
 }
+
