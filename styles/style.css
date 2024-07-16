@@ -198,3 +198,113 @@ section{
 
     
 }
+/* Feratures we love and enjoy section */
+
+.features-love{
+    margin-top: 150px;
+    justify-content: space-between;
+    gap: 100px;
+    /* height: 1049px; */
+    padding: 0px 100px;
+    max-width: 1440px;
+    max-height: 1059px;
+
+}
+.features-love-card,.card-image-item{
+    max-width: 586px;
+    height: 982px;
+    width: 100%;
+}
+.card-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.features-love-title{
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 26px;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;  
+  
+}
+.heading-card-description{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;    
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.card-description{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;    
+    margin-top: 10px;
+}
+.card-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;    
+    margin-top: 20px;
+}
+.card{
+    padding: 10px 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin: 10px 0px;    
+}
+.card-btn{
+    width: 342px;
+    height: 200px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    font-family: Work Sans;
+    border: none;
+    color: #FFF;   
+    padding: 15px 25px;  
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.card-btn-1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight:bold;
+}
+/* Feature we love  section Responsive  */
+
+@media screen and (max-width:576px) {
+
+    .features-love{
+        flex-direction: column;
+        /* gap: 492px; */
+        padding: 0px 55px;
+            
+    }
+    .card-image-item{
+        margin-top: 390px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+ 
+    
+}
